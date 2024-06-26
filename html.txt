@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player..</title>
+    <script src="https://kit.fontawesome.com/394e4ddefe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/js-projects/Music player/music-play.css">
+
+</head>
+
+<body>
+    <div class="outer-box">
+        <div class="controls">
+
+            <i class="fa-solid fa-angle-left"></i>
+
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+        <div class="music-dp">
+            <img src="/js-projects/Music player/music-images/music-dp.jpg" alt="">
+        </div>
+        <div class="song-details">
+            <p>Vaa Senthazhini</p>
+            <p1>G V Prakash , Santhosh narayanan </p1>
+        </div>
+        <audio id="song">
+            <source src="/js-projects/Music player/music/Vaa Senthaazhini.mp3" type="audio/mpeg">
+        </audio>
+        <div style="height: 60px; width: 100%;">
+            <input type="range" value="0" id="progress">
+        </div>
+        <div class="plays" >
+            
+            <div><i class="fa-solid fa-backward-step"></i></div>
+            <div onclick="passplay()"><i class="fa-solid fa-play" id="icons" ></i></div>
+            <div><i class="fa-solid fa-forward-step"></i></div>
+        
+        </div>
+    </div>
+    
+    <script src="music_play.js"></script>
+</body>
+
+</html>

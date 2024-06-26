@@ -1,0 +1,87 @@
+        .outer-box {
+            height: 1000px;
+            width: 600px;
+            background: rgb(221, 174, 221);
+            text-align: center;
+            border-radius: 30px;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            padding:40px 40px;
+        }
+
+        .controls i {
+            height: 100%;
+            cursor: pointer;
+           background: #fff;
+           border-radius: 50%;
+           padding: 15px 18px;
+           border:4px solid rgba(17, 99, 76, 0.808);
+           box-shadow: 0 0 8px rgba(250, 34, 124, 0.808);
+        }
+
+        .music-dp img {
+            border-radius: 50%;
+            justify-content: center;
+            height: 350px;
+            width: 350px;
+            margin-top: 50px;
+            object-fit: cover;
+            box-shadow: 0 0 40px rgba(250, 194, 10, 0.87);
+        }
+        .song-details{
+            padding-top: 30px;
+            font-family:'Courier New', Courier, monospace;
+            font-size: x-large;
+            font-weight: bold;
+            padding-bottom: 30px;
+        }
+        .song-details p1{
+            
+            font-size: 15px;
+            font-style: italic;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .audio-set{
+            padding-top: 30px;
+        }
+        #progress{
+            width:60%;
+            height: 7px;
+            -webkit-appearance: none;
+            background-color: rgb(255, 14, 183);
+            border-radius: 10px;
+            border: 40px 0 ;
+            cursor: pointer;
+        }
+        #progress::-webkit-slider-thumb{
+            -webkit-appearance: none;
+            background-color: #fff;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border:7px solid rgba(23, 114, 87, 0.808);
+
+        }
+        .plays{
+            
+            display: flex;
+            justify-content: center;
+            column-gap: 100px;
+            
+        }
+        .plays i{
+            height: max-content;
+            width: max-content;
+            border-radius: 50% ;
+            padding: 18px 20px;
+            background: #fff;
+            border: 2px solid rgb(182, 153, 179);
+            box-shadow: 0 0 8px rgba(16, 224, 224, 0.808);
+        }
+        .plays div:nth-child(2){
+            transform:scale(1.5);
+            color: rgb(41, 27, 27);
+        }
